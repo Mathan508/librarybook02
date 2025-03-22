@@ -1,0 +1,125 @@
+.book-list-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-list-title {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .add-book-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-book-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .no-books-message {
+    text-align: center;
+    color: #555;
+    font-size: 1.2rem;
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .book-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-info {
+    flex: 1;
+  }
+  
+  .book-title {
+    margin: 0;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .book-author {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .book-year {
+    margin: 0;
+    color: #777;
+    font-size: 1rem;
+  }
+  
+  .book-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button {
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .error-message {
+    text-align: center;
+    color: #dc3545;
+    font-size: 1.2rem;
+  }
